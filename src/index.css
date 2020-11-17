@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url("assets/fonts/frutigernextlt-light-webfont.woff") format("woff"), url("assets/fonts/frutigernextlt-light-webfont.ttf") format("truetype"), url("assets/fonts/frutigernextlt-light-webfont.svg#frutigernextlt_lightregular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Frutiger';
+    src: url("assets/fonts/FrutigerNextPro-Medium.woff2") format("woff2") url("assets/fonts/FrutigerNextPro-Medium.woff") format("woff"), url("assets/fonts/FrutigerNextPro-Medium.ttf") format("truetype"), url("assets/fonts/FrutigerNextPro-Medium.svg#FrutigerNextPro-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Frutiger';
+    src: url("assets/fonts/FrutigerNextPro-Bold_gdi.woff") format("woff"), url("assets/fonts/FrutigerNextPro-Bold_gdi.ttf") format("truetype"), url("assets/fonts/FrutigerNextPro-Bold_gdi.svg#FrutigerNextPro-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
