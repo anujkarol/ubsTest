@@ -10,7 +10,7 @@ export const instance: AxiosInstance = axios.create({
 });
 
 instance.interceptors.response.use(
-  function(response) {
+  function (response: Response) {
     const appState: AppState = store.getState();
     const serverCheck: boolean = appState.serverReducer.isServerDown;
 
@@ -22,7 +22,7 @@ instance.interceptors.response.use(
 
     return response;
   },
-  (error) => {
+  (error: any) => {
     const ifServerError =
       error.response.status > 401 && error.response.status <= 500;
 

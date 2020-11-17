@@ -7,7 +7,7 @@ export function* getDataSaga() {
     const response = yield call(() =>
       instance({
         method: "GET",
-        url: `http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=3`,
+        url: `/?i=onions,garlic&q=omelet&p=3`,
       })
     );
 
