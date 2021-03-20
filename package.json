@@ -23,7 +23,8 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "eject": "react-scripts eject",
-    "lint": "echo \"Linting performed locally with Prettier\""
+    "lint": "echo \"Linting performed locally with Prettier\"",
+    "build": "react-scripts build && npm run copy:static",
   },
   "devDependencies": {
     "@types/node": "12.7.4",
